@@ -1,0 +1,58 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# =============== #
+# Unity generated #
+# =============== #
+Source/Docs/                    # Hiding documentation files
+Source/Temp/
+Source/Builds/
+Source/Library/
+Source/LibraryIOS/
+Source/LibraryAndroid/
+Source/Assets/UnityVS/
+Source/RewiredBackup/
+Source/Assets/UnityVS.meta
+Source/sysinfo.txt 		# Unity3D Generated File On Crash Reports
+
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+Source/ExportedObj/
+Source/obj/
+Source/.vs/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.tmp
+#*.dll
+#*.dll.meta
+
+
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+
+# ============ #
+# Builds       #
+# ============ #
+*.apk
+*.unitypackage
+*.unitypackage.meta
+*.exe
+*ScriptKeywordProcessor.cs
