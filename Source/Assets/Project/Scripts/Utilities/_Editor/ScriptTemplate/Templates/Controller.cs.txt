@@ -1,0 +1,41 @@
+/**************************************************************************
+ * Copyright: Copyright #CREATION_YEAR# #COMPANY_NAME#, LLC. All Rights reserved.
+ * Module: #SCRIPT_NAME#
+ * ScriptType: Controller
+ * Created by: #AUTHOR#, #EMAIL#
+ * Created on: #CREATION_DATE#
+ * Description: ...Add any description
+ * Notes: ...Add any note
+ **************************************************************************/
+
+using UnityEngine;
+using System;
+using HandlerTag = Cofradinn.Constants.HandlerTag;
+
+namespace Cofradinn.Controllers.#SCRIPT_NAME#
+{
+	public interface I#SCRIPT_NAME#Controller : IVisible
+	{
+	}
+
+	public class #SCRIPT_NAME#Controller : Controller, I#SCRIPT_NAME#Controller
+	{
+		//private ISomeHandler _iSomeHandler;
+	
+		public void __EnableView(bool enable)
+		{
+			// _iSomeHandler.__EnableView(enable);
+		}
+
+	    protected override void __OnAwake()
+        {
+			// Events
+            //_iSwitchButtonHandlerDraw._OnModuleEvent += __ModuleEvents;
+        }
+        protected override void __FindReferences()
+        {
+		    // Finding modules references
+            // _iSomeHandler = __FindComponent<ISomeHandler>(HandlerTag.SomeHandler);
+        }
+	}
+}

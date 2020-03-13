@@ -1,0 +1,33 @@
+/**************************************************************************
+ * Copyright: Copyright #CREATION_YEAR# #COMPANY_NAME#, LLC. All Rights reserved.
+ * Module: #SCRIPT_NAME#
+ * ScriptType: Presenter
+ * Created by: #AUTHOR#, #EMAIL#
+ * Created on: #CREATION_DATE#
+ * Description: ...Add any description
+ * Notes: ...Add any note
+ **************************************************************************/
+
+using UnityEngine;
+using System;
+
+namespace Cofradinn.Modules.#SCRIPT_NAME#
+{
+    public interface I#SCRIPT_NAME#Presenter : IVisible
+    {
+        Action<#SCRIPT_NAME#EventName> _OnPresenterEvent { get; set; }
+    }
+
+    public class #SCRIPT_NAME#Presenter : Presenter, I#SCRIPT_NAME#Presenter
+    {
+        [Header("Components")]
+        [SerializeField] private GameObject _presenter;
+
+        public Action<#SCRIPT_NAME#EventName> _OnPresenterEvent { get; set; }
+
+        public void __EnableView(bool active)
+        {
+            _presenter.SetActive(active);
+        }
+    }
+}

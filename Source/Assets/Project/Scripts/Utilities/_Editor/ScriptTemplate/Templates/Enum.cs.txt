@@ -1,0 +1,19 @@
+/**************************************************************************
+ * Copyright: Copyright #CREATION_YEAR# #COMPANY_NAME#, LLC. All Rights reserved.
+ * Module: #SCRIPT_NAME#
+ * ScriptType: Enums
+ * Created by: #AUTHOR#, #EMAIL#
+ * Created on: #CREATION_DATE#
+ * Description: ...Add any description
+ * Notes: ...Add any note
+ **************************************************************************/
+
+using UnityEngine;
+
+namespace Cofradinn.Modules.#SCRIPT_NAME#
+{
+	public enum #SCRIPT_NAME#EventName
+	{
+		None,
+	}
+}

@@ -1,0 +1,40 @@
+/**************************************************************************
+ * Copyright: Copyright #CREATION_YEAR# #COMPANY_NAME#, LLC. All Rights reserved.
+ * Module: #SCRIPT_NAME#
+ * ScriptType: Handler
+ * Created by: #AUTHOR#, #EMAIL#
+ * Created on: #CREATION_DATE#
+ * Description: ...Add any description
+ * Notes: ...Add any note
+ **************************************************************************/
+
+using UnityEngine;
+using System;
+
+namespace Cofradinn.Modules.#SCRIPT_NAME#
+{
+	public interface I#SCRIPT_NAME#Observable
+	{
+		// In this interface you should put the get methods and get properties
+	}
+
+	public interface I#SCRIPT_NAME#Handler : I#SCRIPT_NAME#Observable, IVisible
+	{
+		// Here will be all the methods and properties for the administractors
+		Action<#SCRIPT_NAME#EventName> _OnModuleEvent { get; set; }
+	}
+
+	public class #SCRIPT_NAME#Handler : Handler, I#SCRIPT_NAME#Handler
+	{
+		[Header("Components")]
+		[SerializeField] private #SCRIPT_NAME#Presenter _#SCRIPT_NAME#Presenter;
+		private I#SCRIPT_NAME#Presenter _i#SCRIPT_NAME#Presenter => _#SCRIPT_NAME#Presenter;
+		
+		public Action<#SCRIPT_NAME#EventName> _OnModuleEvent { get; set; }
+
+		public void __EnableView(bool enable)
+		{
+			_i#SCRIPT_NAME#Presenter.__EnableView(enable);
+		}
+	}
+}

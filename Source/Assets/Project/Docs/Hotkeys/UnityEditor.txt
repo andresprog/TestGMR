@@ -1,0 +1,30 @@
+
+References
+
+- Control + S ------------> Save
+- Control + Shift + S ----> Save Scene as
+- Control + Z ----> 
+- Control + Y ----> 
+- Control + D ----> 
+- Control + C ---->
+- Control + V ---->
+- Control + X ---->
+
+
+
+- Control + P ---------------------> Play
+- Control + Shift + P -------------> Pause
+- Control + Alt + P ---------------> Step
+- Control + R ---------------------> Refresh assets
+- Control + Shift + N -------------> Create GameEmpty
+- Control + R --------------------->
+- Control + R --------------------->
+
+- F -------------------------------> Frame centre selection
+- Control + F ---------------------> Find
+- Control + Shift + F -------------> reposition object to the camera position
+
+
+
+
+

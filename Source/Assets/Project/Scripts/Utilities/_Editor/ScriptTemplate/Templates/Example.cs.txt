@@ -1,0 +1,57 @@
+/**************************************************************************
+ * Copyright: Copyright #CREATION_YEAR# #COMPANY_NAME#, LLC. All Rights reserved.
+ * Module: #SCRIPT_NAME#
+ * ScriptType: Example
+ * Created by: #AUTHOR#, #EMAIL#
+ * Created on: #CREATIONDATE#
+ * Description: ...Add any description
+ * Notes: ...Add any note
+ **************************************************************************/
+
+using UnityEngine;
+using HandlerTag = Cofradinn.Constants.HandlerTag;
+
+namespace Cofradinn.Modules.#SCRIPT_NAME#
+{
+	public class #SCRIPT_NAME#Example : Example
+	{
+		[Header("Components")]
+		private I#SCRIPT_NAME#Handler _i#SCRIPT_NAME#Handler;
+    
+		protected override void __FindReferences()
+        {
+		    // Finding modules references
+            _i#SCRIPT_NAME#Handler = __FindComponent<I#SCRIPT_NAME#Handler>(HandlerTag.#SCRIPT_NAME#Handler);
+        }
+
+		#region Commands
+		[Header("Commands")]
+		[SerializeField] private Command _command = Command.None;
+
+		private void Update()
+		{
+			switch (_command)
+            {
+                case Command.Command_1:
+					Debug.Log("Execute Command_1");
+                    break;
+                case Command.Command_2:
+					Debug.Log("Execute Command_2");
+                    break;
+
+                case Command.None:
+                default:
+                    break;
+            }	
+			_command = Command.None;
+		}
+
+		public enum Command
+		{
+			None,
+			Command_1,
+			Command_2,
+		}
+		#endregion
+	}
+}

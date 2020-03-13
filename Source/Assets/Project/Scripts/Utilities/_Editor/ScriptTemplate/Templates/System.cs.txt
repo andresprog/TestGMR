@@ -1,0 +1,31 @@
+/**************************************************************************
+ * Copyright: Copyright #CREATION_YEAR# #COMPANY_NAME#, LLC. All Rights reserved.
+ * Module: #SCRIPT_NAME#
+ * ScriptType: Handler
+ * Created by: #AUTHOR#, #EMAIL#
+ * Created on: #CREATION_DATE#
+ * Description: ...Add any description
+ * Notes: ...Add any note
+ **************************************************************************/
+
+using UnityEngine;
+
+namespace Cofradinn.Modules.#SCRIPT_NAME#
+{
+public interface I#SCRIPT_NAME#Handler
+{
+
+}
+
+public class #SCRIPT_NAME#Handler : Handler, I#SCRIPT_NAME#Handler
+{
+[Header("Components")]
+[SerializeField] private #SCRIPT_NAME#Presenter _#SCRIPT_NAME#Presenter;
+ private I#SCRIPT_NAME#Presenter _i#SCRIPT_NAME#Presenter => _#SCRIPT_NAME#Presenter;
+
+    private void __Init()
+    {
+
+    }
+}
+}

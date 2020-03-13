@@ -1,0 +1,19 @@
+Steps:
+1- open notes bloc, secondary click on the icon and open how administrator
+2- open the next file: (C:\Program Files\Unity\Hub\Editor\2019.1.14f1\Editor\Data\Resources\ScriptTemplates\81-C# Script-NewBehaviourScript.cs.txt )
+3- Edit File and Save
+4- You can create new similars files (All files you should edit with the notes bloc).
+4- Ready!
+
+Note: You should do this for every version of the unity editor.
+
+Multiples Templates
+https://answers.unity.com/questions/635684/add-additional-script-templates.html
+
+
+{SortingIndex}-{MenuItemName}-{FileName}.txt
+81-C# Script-NewBehaviourScript.cs.txt
+82-C# Script Handler-NameHandler.cs.txt
+83-C# Script System-NameSystem.cs.txt
+84-C# Script Controller-NameController.cs.txt
+85-C# Script Presenter-NamePresenter.cs.txt

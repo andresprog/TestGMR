@@ -1,0 +1,1768 @@
+fileFormatVersion: 2
+guid: 95410b2320adeb048a33ee9de5157d5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8548517991728748331
+    second: prototypesatlas_0
+  - first:
+      213: -3943507884639370570
+    second: prototypesatlas_1
+  - first:
+      213: -6523164356767377098
+    second: prototypesatlas_2
+  - first:
+      213: 2781810648773892958
+    second: prototypesatlas_3
+  - first:
+      213: 8938522664283213228
+    second: prototypesatlas_4
+  - first:
+      213: -3044910750273244946
+    second: prototypesatlas_5
+  - first:
+      213: -7787908636943791830
+    second: prototypesatlas_6
+  - first:
+      213: 2639630389449031285
+    second: prototypesatlas_7
+  - first:
+      213: 8298239221529669417
+    second: prototypesatlas_8
+  - first:
+      213: -8235020694601238322
+    second: prototypesatlas_9
+  - first:
+      213: 4679835619436236218
+    second: prototypesatlas_10
+  - first:
+      213: 1435485719701894632
+    second: prototypesatlas_11
+  - first:
+      213: -3214957505537927337
+    second: prototypesatlas_12
+  - first:
+      213: -5226794986058676058
+    second: prototypesatlas_13
+  - first:
+      213: -2091930842173927078
+    second: prototypesatlas_14
+  - first:
+      213: -7920035772567998286
+    second: prototypesatlas_15
+  - first:
+      213: -4987555946164359102
+    second: prototypesatlas_16
+  - first:
+      213: -8217313213363177475
+    second: prototypesatlas_17
+  - first:
+      213: 3830948872149286367
+    second: prototypesatlas_18
+  - first:
+      213: -5328127181881525064
+    second: prototypesatlas_19
+  - first:
+      213: -713586712092507505
+    second: prototypesatlas_20
+  - first:
+      213: -2508829390123868316
+    second: prototypesatlas_21
+  - first:
+      213: -7380568872125094448
+    second: prototypesatlas_22
+  - first:
+      213: 3295743100019025759
+    second: prototypesatlas_23
+  - first:
+      213: 3857667578088310241
+    second: prototypesatlas_24
+  - first:
+      213: 6317076472224471097
+    second: prototypesatlas_25
+  - first:
+      213: -1348351258737989670
+    second: prototypesatlas_26
+  - first:
+      213: -8682697922878068183
+    second: prototypesatlas_27
+  - first:
+      213: 2385633039776227625
+    second: prototypesatlas_28
+  - first:
+      213: 3077999883797416236
+    second: prototypesatlas_29
+  - first:
+      213: 1511586311113533714
+    second: prototypesatlas_30
+  - first:
+      213: 3083316723089765422
+    second: prototypesatlas_31
+  - first:
+      213: 8701064081787684444
+    second: prototypesatlas_32
+  - first:
+      213: 4142836025273941735
+    second: prototypesatlas_33
+  - first:
+      213: -1011030738453240976
+    second: prototypesatlas_34
+  - first:
+      213: -186605738600497174
+    second: prototypesatlas_35
+  - first:
+      213: -4934937132172282733
+    second: prototypesatlas_36
+  - first:
+      213: -5565225431009403381
+    second: prototypesatlas_37
+  - first:
+      213: -1578022820561607272
+    second: prototypesatlas_38
+  - first:
+      213: -3463447392130020041
+    second: prototypesatlas_39
+  - first:
+      213: 104767551465666268
+    second: prototypesatlas_40
+  - first:
+      213: -3474179098706819491
+    second: prototypesatlas_41
+  - first:
+      213: 2538960665357384389
+    second: prototypesatlas_42
+  - first:
+      213: 4997037124348313369
+    second: prototypesatlas_43
+  - first:
+      213: 4837979808565087685
+    second: prototypesatlas_44
+  - first:
+      213: -2004664722738926543
+    second: prototypesatlas_45
+  - first:
+      213: -5767316137257658146
+    second: prototypesatlas_46
+  - first:
+      213: 9020793971075901455
+    second: prototypesatlas_47
+  - first:
+      213: -5587426983632602510
+    second: prototypesatlas_48
+  - first:
+      213: 5634101309634716406
+    second: prototypesatlas_49
+  - first:
+      213: 7516006086803265102
+    second: prototypesatlas_50
+  - first:
+      213: -1749835673338001806
+    second: prototypesatlas_51
+  - first:
+      213: 8428718708188475672
+    second: prototypesatlas_52
+  - first:
+      213: -1646560391815851534
+    second: prototypesatlas_53
+  - first:
+      213: -3922277290917573057
+    second: prototypesatlas_54
+  - first:
+      213: -4245320178603309340
+    second: prototypesatlas_55
+  - first:
+      213: -7108471288314379408
+    second: prototypesatlas_56
+  - first:
+      213: -7903981190472230226
+    second: prototypesatlas_57
+  - first:
+      213: 1673911168636727791
+    second: prototypesatlas_58
+  - first:
+      213: -7441238299019993664
+    second: prototypesatlas_59
+  - first:
+      213: -8751543497724574318
+    second: prototypesatlas_60
+  - first:
+      213: 9164246211143508543
+    second: prototypesatlas_61
+  - first:
+      213: -8332348484419073148
+    second: prototypesatlas_62
+  - first:
+      213: 6126697801069960288
+    second: prototypesatlas_63
+  - first:
+      213: -5912601890117813323
+    second: prototypesatlas_64
+  - first:
+      213: 8158637082447676260
+    second: prototypesatlas_65
+  - first:
+      213: 4445139445457064515
+    second: prototypesatlas_66
+  - first:
+      213: -707742404930937680
+    second: prototypesatlas_67
+  - first:
+      213: -3226807371885043580
+    second: prototypesatlas_68
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prototypesatlas_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 4787
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce1be7e16f25d0429f1c2722337b0e7
+      internalID: -8548517991728748331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 4654
+        width: 263
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df08a63a2f5710c47826405cd1187062
+      internalID: -3943507884639370570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 4632
+        width: 326
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0441dd9672eb74bb4d6d1e91e2ec69
+      internalID: -6523164356767377098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_3
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 4551
+        width: 411
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a15a118b1f6b74d91e6edf575c817c
+      internalID: 2781810648773892958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_4
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 4523
+        width: 515
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a0441bd4b9ab74f83b449a11e3ffe4
+      internalID: 8938522664283213228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_5
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 4368
+        width: 757
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec850ba2de4b4b4597660a47aaa4972
+      internalID: -3044910750273244946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_6
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 4492
+        width: 532
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40ee108286e47a4e8234b4750d637a5
+      internalID: -7787908636943791830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_7
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 4247
+        width: 967
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4139fbf9e86d9184fbebc307bbe7f687
+      internalID: 2639630389449031285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4174
+        width: 583
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d3dd9c04aa6fe41809561302e321b9
+      internalID: 8298239221529669417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_9
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 4272
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d5e4f3ad847934e951ade6aaf9ac68
+      internalID: -8235020694601238322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_10
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 4280
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0c7c46ec88d0e439f78f5241d02bc2
+      internalID: 4679835619436236218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3916
+        width: 422
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da86f72b1e2bfb4cb65bf04bc3554c6
+      internalID: 1435485719701894632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_12
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 3978
+        width: 164
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cac7b25712718468e7f9a2fe3a5bbf
+      internalID: -3214957505537927337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_13
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 4088
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bfba2700985e4499bafded9e833937
+      internalID: -5226794986058676058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_14
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 3668
+        width: 260
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2762889c5f85b43a827c3bc0affb1b
+      internalID: -2091930842173927078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_15
+      rect:
+        serializedVersion: 2
+        x: 3547
+        y: 3233
+        width: 846
+        height: 991
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068f9fbf7049d064fb1d379319dfaada
+      internalID: -7920035772567998286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_16
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 3873
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59972e0641d93f46900e27037b12012
+      internalID: -4987555946164359102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_17
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 3618
+        width: 495
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a4a38da647c54ea0f0b454915dd34
+      internalID: -8217313213363177475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3711
+        width: 324
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44401070c8a755247b253b7375ab05cd
+      internalID: 3830948872149286367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_19
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 3610
+        width: 246
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6770925e15b3042adf64a0a387efe3
+      internalID: -5328127181881525064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3481
+        width: 599
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75716209ab968f49ab1f17811de60bf
+      internalID: -713586712092507505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3349
+        width: 554
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3959f9165bd1e2b46a53022de0edfd45
+      internalID: -2508829390123868316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_22
+      rect:
+        serializedVersion: 2
+        x: 4846
+        y: 3264
+        width: 158
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c38d70fd676c674a9c0b00889601c76
+      internalID: -7380568872125094448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3208
+        width: 678
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf315d7e695e62418256d9bcd5b50bc
+      internalID: 3295743100019025759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3057
+        width: 982
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b327ffd04b27fda459e44a4747873bcf
+      internalID: 3857667578088310241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2907
+        width: 1329
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5f83de53915804e8511bd5908bc924
+      internalID: 6317076472224471097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_26
+      rect:
+        serializedVersion: 2
+        x: 4878
+        y: 2947
+        width: 126
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84558c857c7f19a4b8a2502b92942158
+      internalID: -1348351258737989670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_27
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2714
+        width: 1221
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e66485644b1f45b623052f94785b5
+      internalID: -8682697922878068183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_28
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 2569
+        width: 144
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f479abc203862f544b6c76a913a651d5
+      internalID: 2385633039776227625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_29
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 2403
+        width: 329
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561ba8db2762cb74ba2c500ec121411a
+      internalID: 3077999883797416236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2368
+        width: 111
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0a8eb192c7d1b4f981ea7f6bb7ce67
+      internalID: 1511586311113533714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2383
+        width: 129
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdefdb7773fdcf8438ecd5a4d0a18c9f
+      internalID: 3083316723089765422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_32
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2374
+        width: 127
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307fd8d027d28874a8ab2b95671dbd6f
+      internalID: 8701064081787684444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_33
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2457
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ba4134e2153447aee3ac89141c896
+      internalID: 4142836025273941735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_34
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2483
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d31a1b4084b1fe4f9e1b507ec58e6c0
+      internalID: -1011030738453240976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_35
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 2457
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079003f12bf89f045a36e5a4cc46f0b5
+      internalID: -186605738600497174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_36
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 2352
+        width: 173
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9467f5471f7b6ef428fdbacdc87568ff
+      internalID: -4934937132172282733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_37
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2357
+        width: 143
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33cf767468b11a46bdf865a271b0e38
+      internalID: -5565225431009403381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_38
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 2353
+        width: 144
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c3c96cb21eba54ba2b9cdd90e5827a
+      internalID: -1578022820561607272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_39
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 2353
+        width: 143
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a78a15d641dac48836ebf53c4ed471
+      internalID: -3463447392130020041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_40
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2413
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03035edb4ec1f2544a429a43071afe90
+      internalID: 104767551465666268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_41
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2380
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f574eb2856394d49b3c249a902b6555
+      internalID: -3474179098706819491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_42
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 2413
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15de2d6cf4993a4408fbb45cda3b8f18
+      internalID: 2538960665357384389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_43
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2359
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cb5433159421649a7773fffdd5af44
+      internalID: 4997037124348313369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_44
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2331
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa4ba4d602098348810bc480726d96d
+      internalID: 4837979808565087685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_45
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 2359
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178c32e75b217c844bd970731a1682bb
+      internalID: -2004664722738926543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_46
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2219
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71efe8f5a94866419825ddfe1de59c8
+      internalID: -5767316137257658146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_47
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2213
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bc18370149bfa4e8ce11f569d77341
+      internalID: 9020793971075901455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_48
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2202
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917418d54ee0bbe4b8ec7fc80282d60d
+      internalID: -5587426983632602510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_49
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 2179
+        width: 131
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db105a6144efcea47996656c83d9aa9a
+      internalID: 5634101309634716406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_50
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2170
+        width: 167
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1378e74f157c714081ae26b5bed71b1
+      internalID: 7516006086803265102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_51
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2224
+        width: 107
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119d563e9ec2de14884f422ac09031c9
+      internalID: -1749835673338001806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_52
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 2173
+        width: 144
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0600316d0e6a948a041c7fd0b09aca
+      internalID: 8428718708188475672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_53
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2170
+        width: 144
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f77caf9e18a544799ea47d2084d736
+      internalID: -1646560391815851534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_54
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1933
+        width: 166
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c87a2132ea6ca44cb1353247f1b5a42
+      internalID: -3922277290917573057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_55
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1934
+        width: 201
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d32287e87043654287652bb18b90830
+      internalID: -4245320178603309340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_56
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1980
+        width: 200
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eea41bdfaa4774ab7dd7bc6d638b28
+      internalID: -7108471288314379408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_57
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1949
+        width: 166
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a16e2f1a207ee4bbdeed8416660823
+      internalID: -7903981190472230226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_58
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1938
+        width: 246
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2eeb27462f7a043931addf96067bcd
+      internalID: 1673911168636727791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_59
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1993
+        width: 144
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e824edae503c404f8159d1b8296f551
+      internalID: -7441238299019993664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_60
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1993
+        width: 144
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f2ae6c7557d5445b425858e8b9f842
+      internalID: -8751543497724574318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_61
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 1676
+        width: 697
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4725bf573966a43b7f29731591aba2
+      internalID: 9164246211143508543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_62
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1824
+        width: 144
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbef88b9677bfc489927866cefe017e
+      internalID: -8332348484419073148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_63
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1823
+        width: 143
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9877eefcced63ca4586ba7a1c4775ffc
+      internalID: 6126697801069960288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_64
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1645
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5351da7b31a9c504e80abb2420adc0da
+      internalID: -5912601890117813323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2504
+        height: 1514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18c8c91dd1a4404abc372a70992fc98
+      internalID: 8158637082447676260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_66
+      rect:
+        serializedVersion: 2
+        x: 4846
+        y: 1484
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e46654abe363334ab3b8f902ec92909
+      internalID: 4445139445457064515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_67
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 268
+        width: 12
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc76be884e4d9a40ab56f105c953a8a
+      internalID: -707742404930937680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototypesatlas_68
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 532
+        width: 12
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee04964bab8304142a469cb84270a79a
+      internalID: -3226807371885043580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e8f2f5ce316224341958a751f3a784c4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
