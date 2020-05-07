@@ -8,7 +8,7 @@ namespace Cofradinn.Data.Gui.Loading.Utilities
 
         private void Update()
         {
-            LoadingImageSystem._Instance._ShowLoadingImage(_active);
+            LoadingImageSystem._Instance.__ShowSpinner(_active);
         }
     }
 }

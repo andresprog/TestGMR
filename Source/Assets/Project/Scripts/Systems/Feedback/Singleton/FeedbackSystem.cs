@@ -16,6 +16,9 @@ using UnityEngine.UI;
 
 namespace Cofradinn.Modules.Feedback
 {
+    /// <summary>
+    /// The diferents feedback types
+    /// </summary>
     public enum FeedbackType
     {
         None,
@@ -24,32 +27,37 @@ namespace Cofradinn.Modules.Feedback
         Success,
 
     }
+
+    /// <summary>
+    /// This system allows you to show notifications in real time on the screen
+    /// </summary>
     public class FeedbackSystem : SingletonComponent<FeedbackSystem>
     {
-
         [Header("Components")]
         [SerializeField] private Text feedbackText;
         [SerializeField] private Animator _animator;
         [SerializeField] private Image _imgBackground;
 
         [Header("Parameters")]
-        /// <summary> The time it takes to write a single character in the feedback. </summary>
-      //  [SerializeField] private float _charTime = 0.005f;
-      //  [SerializeField] private float _waitTime = 3f;
         [SerializeField] private Color _startTextColor;
         [SerializeField] private Color _endTextColor;
+
         [Header("FeedbackColors")]
         [SerializeField] private Color _noneColor;
         [SerializeField] private Color _errorColor;
         [SerializeField] private Color _warningColor;
         [SerializeField] private Color _successColor;
 
-        // This tags are used to change sections of the text to white. We write the text by changing its color,
-        // not by adding letters. This allows the text to be aligned correctly with the panel beforehand and
-        // avoids weird jumps while writing.
+        /// <summary>
+        ///  This tags are used to change sections of the text to white. We write the text by changing its color,
+        ///  not by adding letters. This allows the text to be aligned correctly with the panel beforehand and
+        ///  avoids weird jumps while writing.
+        /// </summary>
         private string START_COLOR_TAG;
         private string END_COLOR_TAG = "</color>";
-        /// <summary> Is the feedback panel currently visible and the feedback coroutine currently active. </summary>
+        /// <summary>
+        /// Is the feedback panel currently visible and the feedback coroutine currently active.
+        /// </summary>
         private bool systemActive = false;
         /// <summary>
         /// We save the texts we have display in a queue to access them one at a time.
@@ -57,14 +65,13 @@ namespace Cofradinn.Modules.Feedback
         private Queue<string> _currentDialogFeedbackQueue = new Queue<string>();
         private Queue<FeedbackData> _feedbacksdQueue = new Queue<FeedbackData>();
 
-        public class FeedbackData
-        {
-            public string _dialog = "Empty";
-            public FeedbackType _feedbackType = FeedbackType.Success;
-            public float _waitTime = 3f;
-            public float _chartTime = 0.005f;
-        }
-
+        /// <summary>
+        /// Show notification
+        /// </summary>
+        /// <param name="dialog">Write here the notification message</param>
+        /// <param name="feedbackType">Choose here the feedback type</param>
+        /// <param name="waitTime">The life time of the notification</param>
+        /// <param name="chartTime">Animation delay of each character</param>
         public void __SendFeedback(string dialog, FeedbackType feedbackType, float waitTime = 3f, float chartTime = 0.005f)
         {
             FeedbackData feedbackData = new FeedbackData
@@ -77,9 +84,26 @@ namespace Cofradinn.Modules.Feedback
 
             _feedbacksdQueue.Enqueue(feedbackData);
         }
+        /// <summary>
+        /// Show notification
+        /// </summary>
         public void __SendFeedback(FeedbackData feedbackData)
         {
             _feedbacksdQueue.Enqueue(feedbackData);
+        }
+        /// <summary>
+        /// Hide notification instantly
+        /// </summary>
+        public void __ForceClosedCurrentFeedback()
+        {
+            StopAllCoroutines();
+            _animator.SetBool("FeedbackOpened", false);
+            systemActive = false;
+        }
+
+        protected override void OnAwake()
+        {
+            feedbackText.color = _startTextColor;
         }
         private void Update()
         {
@@ -87,16 +111,16 @@ namespace Cofradinn.Modules.Feedback
                 if (!systemActive)
                     StartCoroutine(___WriteFeedback());
         }
-
-        public void __ForceClosedCurrentFeedback()
+        private Color __GetFeedbackColor(FeedbackType feedbackType)
         {
-            StopAllCoroutines();
-            _animator.SetBool("FeedbackOpened", false);
-            systemActive = false;
-        }
-        protected override void OnAwake()
-        {
-            feedbackText.color = _startTextColor;
+            switch (feedbackType)
+            {
+                case FeedbackType.None: return _noneColor;
+                case FeedbackType.Error: return _errorColor;
+                case FeedbackType.Warning: return _warningColor;
+                case FeedbackType.Success: return _successColor;
+                default: return _noneColor;
+            }
         }
         private IEnumerator ___WriteFeedback()
         {
@@ -144,16 +168,12 @@ namespace Cofradinn.Modules.Feedback
             systemActive = false;
         }
 
-        private Color __GetFeedbackColor(FeedbackType feedbackType)
+        public class FeedbackData
         {
-            switch (feedbackType)
-            {
-                case FeedbackType.None: return _noneColor;
-                case FeedbackType.Error: return _errorColor;
-                case FeedbackType.Warning: return _warningColor;
-                case FeedbackType.Success: return _successColor;
-                default: return _noneColor;
-            }
+            public string _dialog = "Empty";
+            public FeedbackType _feedbackType = FeedbackType.Success;
+            public float _waitTime = 3f;
+            public float _chartTime = 0.005f;
         }
     }
 }

@@ -1,5 +1,4 @@
 /**************************************************************************
- * Copyright: Copyright 2020 Cofradinn, LLC. All Rights reserved.
  * Module: TeamMembers
  * ScriptType: Controller
  * Created by: Andrés Romero, andresraulrg@gmail.com
@@ -15,23 +14,23 @@ using Cofradinn.Modules.Feedback;
 using Cofradinn.Data.Gui.Loading.Utilities;
 using HandlerTag = Cofradinn.Constants.HandlerTag;
 using System.Linq;
+using Cofradinn.Systems;
 
 namespace Cofradinn.Controllers.TeamMembers
 {
+    /// <summary>
+    /// Team members controller, this script handles the module logic
+    /// </summary>
     public class TeamMembersController : Controller
     {
+        [Header("Json Data")]
+        [SerializeField] private TeamMembersJsonData _teamMembersJsonData;
+
         private ITeamMembersHandler _iTeamMembersHandler;
         private List<TeamMemberData> _elements;
 
-        [SerializeField] private TeamMembersJsonData _teamMembersJsonData;
-
         protected override void __OnAwake()
         {
-        }
-        protected override void __FindReferences()
-        {
-            // Finding modules references
-            _iTeamMembersHandler = __FindComponent<ITeamMembersHandler>(HandlerTag.TEAM_MEMBERS_HANDLER);
         }
         private void Start()
         {
@@ -40,26 +39,32 @@ namespace Cofradinn.Controllers.TeamMembers
             __LoadFileAndRefreshView();
 
 
-            _iTeamMembersHandler._OnPanelEvent += __OnEvent;
+            _iTeamMembersHandler._OnPanelEvent += __OnModuleEvent;
         }
-        private void __OnEvent(TeamMembersEventName eventName)
+        protected override void __FindReferences()
+        {
+            // Finding modules references
+            _iTeamMembersHandler = __FindComponent<ITeamMembersHandler>(HandlerTag.TEAM_MEMBERS_HANDLER);
+        }
+
+        private void __EnableView(bool open) => _iTeamMembersHandler.__EnableView(open);
+        private void __OnModuleEvent(TeamMembersEventName eventName)
         {
             switch (eventName)
             {
                 case TeamMembersEventName.Refresh:
-                    LoadingImageSystem._Instance._ShowLoadingImage(true);
+                    LoadingImageSystem._Instance.__ShowSpinner(true);
                     __LoadFileAndRefreshView();
-                    LoadingImageSystem._Instance._ShowLoadingImage(false);
+                    LoadingImageSystem._Instance.__ShowSpinner(false);
                     break;
 
                 case TeamMembersEventName.Exit:
-                    __ApplicationQuit();
+                    AppSystem._Instance.__Quit();
                     break;
                 default:
                     break;
             }
         }
-        private void __EnableView(bool open) => _iTeamMembersHandler.__EnableView(open);
         private void __LoadFileAndRefreshView()
         {
             string json = JsonLoaderHelper.__LoadJsonFile("JsonChallenge.json");
@@ -96,18 +101,6 @@ namespace Cofradinn.Controllers.TeamMembers
             __DebugDictionaryForTest();
 #endif
         }
-        private void __DebugDictionaryForTest()
-        {
-            if (_teamMembersJsonData == null) { Debug.LogError("Null Error: _teamMembersJsonData is null"); return; }
-
-            foreach (var dict in _teamMembersJsonData.Data)
-            {
-                foreach (var item in dict)
-                {
-                    Debug.Log("key: " + item.Key + ", val: " + item.Value);
-                }
-            }
-        }
         private void __ValidateKeys()
         {
             if (_teamMembersJsonData.ColumnHeaders.Count <= 0)
@@ -124,10 +117,17 @@ namespace Cofradinn.Controllers.TeamMembers
                 if (_teamMembersJsonData.ColumnHeaders.Count != sourceCount) FeedbackSystem._Instance.__SendFeedback("Warning: some headers were repeating, duplicate records were removed", FeedbackType.Error);
             }
         }
-
-        private void __ApplicationQuit()
+        private void __DebugDictionaryForTest()
         {
-            Application.Quit();
+            if (_teamMembersJsonData == null) { Debug.LogError("Null Error: _teamMembersJsonData is null"); return; }
+
+            foreach (var dict in _teamMembersJsonData.Data)
+            {
+                foreach (var item in dict)
+                {
+                    Debug.Log("key: " + item.Key + ", val: " + item.Value);
+                }
+            }
         }
     }
 }

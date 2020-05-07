@@ -1,5 +1,4 @@
 /**************************************************************************
- * Copyright: Copyright 2020 Cofradinn, LLC. All Rights reserved.
  * Module: TeamMembers
  * ScriptType: Handler
  * Created by: Andrés Romero, andresraulrg@gmail.com

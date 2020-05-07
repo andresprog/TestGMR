@@ -10,13 +10,17 @@ namespace Cofradinn.Data.Gui.Loading.Utilities
         [Header("Components")]
         [SerializeField] private GameObject _view;
 
-        public void _ShowLoadingImage(bool active)
+        /// <summary>
+        /// Active the spinner
+        /// </summary>
+        /// <param name="active"></param>
+        public void __ShowSpinner(bool active)
         {
             _view.SetActive(active);
         }
         protected override void OnAwake()
         {
-            _ShowLoadingImage(false);
+            __ShowSpinner(false);
         }
     }
 }
